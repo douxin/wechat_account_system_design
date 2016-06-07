@@ -19,6 +19,26 @@
 ➜  npm i --save wechat-oauth jsonwebtoken mongoose mongoose-timestamp request
 ```
 
+## 项目结构说明
+
+```
+.
+├── README.md
+├── app.js
+├── bin
+├── config
+├── controllers  // ctrl 文件，主体的流程在该目录下
+├── libs  // 对 mongoose、wechat-oauth 进行了配置
+├── models  // 数据库设计
+├── node_modules
+├── package.json
+├── public
+├── routes  // 路由
+├── services  // services
+├── test
+└── views
+```
+
 ## account api 接口设计
 account api 主要提供下面两个接口
 
